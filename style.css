@@ -1,0 +1,162 @@
+body{
+     font-family: "Bebas Neue", sans-serif;
+  /* font-weight: 400; */
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 1px black;
+  background:linear-gradient(brown,bisque);
+  
+}
+.hero{
+    background-image: url(mumbai\ Cover.jpeg);
+    background-position: center;
+    background-size: cover;
+    width:1500px;
+    height: 500px;
+    margin-top: 5px;
+    padding-top:5px ;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-title{
+    padding-top: 80px;
+    color:bisque;
+    
+}
+.hero-quote{
+    color:rgb(104, 53, 53);
+    background-color: rgba(245, 245, 220, 0.374);
+    padding: 8px 16px;
+
+}
+.content{
+    
+    border-radius: 5px;
+    border-top: 10px solid rgba(153, 153, 182, 0.712);
+    background-color: #592720;
+    height: 600px;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.con-img{
+    background-image: url(marine\ line.jpg);
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+.con-img:hover{
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjlnMngzN2o2d3RnOWVjeTA4bnZscXU1eGJ2N3Y3OW44d2F4eHY0aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/25Lc5nm5CG3jMfJ8TO/giphy.gif);
+}
+.con-card{
+    background-color:#efdecda7;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+#con-head{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+   align-self: center;
+   display: flex;
+   justify-self: center;
+   color: #DAC8AE;
+   font-size: xx-large;
+   
+}
+.con-des{
+   
+    font-weight: 100;
+    font-family: "Literata";
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-align: justify;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.con-title{
+    font-size:xx-large;
+    color: #5b412f;
+}
+.con{
+    display: flex;
+    justify-content: space-around;
+}
+#con-img2{
+    background-image: url(gateway.jpeg);
+}
+#con-img2:hover{
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnZnemlkaTIzM2Jwbmxvemc4Mms5bTExbHNzZDJqOTdhNmEyYWF4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Jm0b1MrX4RuqScAgvb/giphy.gif);
+}
+#con-img3{
+    background-image: url(national\ park.jpeg);
+}
+#con-img3:hover{
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHl1dm5mM21kaHhieG9qemRhYXIxeHJyZGl2dzExc2FkZnNkZnJleSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/X7CPQRdaVt3fG/giphy.gif);
+}
+.guide-card{
+   background-color: #592720cd;
+    width: 500px;
+    height: 250px;
+    display: flex;
+   justify-content: space-around;
+   margin-left:auto ;
+   margin-right: auto;
+   margin-top: 50px;
+   align-self: center;
+   border-radius: 15px;
+   border-bottom: 5px solid #592720cd;
+    
+}
+.guide-img{
+    background-image: url(photoMe.jpg);
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+.guide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.guide-title{
+    font-size:xx-large;
+    color: #DAC8AE
+    
+
+}
+.guide-des{
+  margin-left: 20px;
+  font-family:"Literata";
+  font-style: italic;
+  color: #c0b4a4
+
+}
+.guide-add{
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #DAC8AE
+
+
+}
